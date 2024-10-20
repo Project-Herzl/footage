@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0073e6;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    max-width: 100vw;   /* Ensure the body stays within viewport width */
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;        /* Ensure header uses full width */
+    position: relative;
+}
+
+header h1 {
+    user-select: none;
+}
+
+.home-button {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.home-button i {
+    font-size: 1.5rem;
+}
+
+.home-button:hover {
+    color: darkblue;
+}
+
+.container {
+    width: 100%;  /* Make container full width */
+    display: flex;
+    justify-content: center;
+}
+
+.footage-grid {
+    width: 100%; /* Full width */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns per row */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Center-align the cards */
+}
+
+.footage-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footage-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.footage-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footage-card h3 {
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+}
+
+.footage-card:active {
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #003366;
+    color: white;
+    position: relative;
+    clear: both;
+}
+
+.footer-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-icons a:hover {
+    color: #1a75ff;
+}
