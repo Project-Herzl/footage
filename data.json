@@ -1,52 +1,35 @@
 {
     "data": [
         {
-        "title": "Example 1",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
+            "title": "Hamas Rape on oct. 7",
+            "image": "https://media.npr.org/assets/img/2024/03/04/gettyimages-2036497525_slide-8eb993354ed774b919a7bfd80cb595cf2f8442b4.jpg",
+            "description": "On October 7, 2023, Hamas attackers committed acts of sexual violence, including rape and mutilation, against Israeli civilians. Witnesses recounted graphic scenes where victims were targeted in several areas, with some left severely injured or killed.",
+            "attachments": [
+                "https://video.wixstatic.com/video/fe5cbf_0ca3d3120fa0425eb80dee4d713dc5cf/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/3bd032_62e0dac75f7c46df8788d07417dce612/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/3bd032_7d618f920f034835870aa326182e7e76/720p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/3bd032_e52c82e7620d4f479482b66a1af5cb1c/720p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_0bb0e5fbc3fa468a92efc69a1da4a258/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_9f0ee2ca03e247e4aa4f4f710e3ad465/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_0009c48ab3fb44c58f56e6f86820f251/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_06401cd71ad54b7ea95f2ef7d838fcea/720p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_dacf698c92e04fcda0b80c3356e71db5/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_e52ee7a49b7b4ddea8e9bf75f47eb236/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_0cc05573cf304f68b2b509e953035e8a/1080p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_9a89d149d2364e1ba9b05697285e3abd/1080p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_c57f9b7f38574af58ad883a83f85a48f/1080p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/fe5cbf_25298c87339242258a650d50df6d8c9c/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/3bd032_7e0e02e4fd6e44d7936a317605e48674/480p/mp4/file.mp4",
+                "https://video.wixstatic.com/video/3ab451_1968af96d36249d3a87e6b2bc13243e7/480p/mp4/file.mp4"
+            ]
         },
         {
-        "title": "Example 2",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 3",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 4",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 5",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 6",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 7",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
-        },
-        {
-        "title": "Example 8",
-        "image": "https://i.natgeofe.com/k/1072dab0-6bf6-4e5d-91d8-2a9bbb25d406/israel-holocaust-memorial_3x2.jpg",
-        "description": "",
-        "attachments": []
+            "title": "Nova Festival",
+            "image": "https://static.timesofisrael.com/www/uploads/2024/06/F240628YS228-scaled-e1719661525711.jpg",
+            "description": "On October 7, 2023, the Nova music festival, near the Gaza-Israel border, became the site of a brutal attack. During a large-scale infiltration by Hamas militants, festivalgoers were targeted, resulting in over 360 fatalities as of recent reports.",
+            "attachments": [
+                "https://example.com/video2.mp4"
+            ]
         }
     ]
 }

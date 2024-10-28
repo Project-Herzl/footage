@@ -1,13 +1,14 @@
+// Main page: Populate grid and set click event to open detail page.
 fetch('data.json')
     .then(response => response.json())
-    .then(data => populateGrid(data.data)) // Access the 'data' array inside the JSON
+    .then(data => populateGrid(data.data))
     .catch(error => console.error('Error loading JSON:', error));
 
 function populateGrid(items) {
     const grid = document.getElementById('footage-grid');
 
     items.forEach(item => {
-        const { title, image } = item; // Destructure 'title' and 'image' from each object
+        const { title, image } = item;
 
         const card = document.createElement('div');
         card.className = 'footage-card';
@@ -15,8 +16,8 @@ function populateGrid(items) {
         const img = document.createElement('img');
         img.src = image;
         img.alt = title;
-        img.draggable = false; // Prevent image dragging
-        img.addEventListener('contextmenu', event => event.preventDefault()); // Disable right-click on image
+        img.draggable = false;
+        img.addEventListener('contextmenu', event => event.preventDefault());
 
         const cardTitle = document.createElement('h3');
         cardTitle.textContent = title;
@@ -26,8 +27,8 @@ function populateGrid(items) {
         grid.appendChild(card);
 
         card.addEventListener('click', () => {
-            const category = title.replace(/\s+/g, '-');
-            window.location.href = `index.html?category=${category}`;
+            const category = encodeURIComponent(title);
+            window.location.href = `detail.html?category=${category}`;  // Redirect to detail page with query param.
         });
     });
 }
