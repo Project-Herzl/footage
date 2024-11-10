@@ -63,6 +63,14 @@ header h1 {
     justify-items: center; /* Center-align the cards */
 }
 
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .footage-grid {
+        grid-template-columns: 1fr; /* One column per row on small screens */
+        gap: 15px; /* Adjust gap for smaller screens */
+    }
+}
+
 .footage-card {
     background-color: white;
     border-radius: 10px;
@@ -72,6 +80,15 @@ header h1 {
     transition: transform 0.2s ease-in-out;
     width: 300px; /* Set fixed width */
     height: 260px; /* Set fixed height */
+    margin: 0 auto; /* Center the card */
+}
+
+/* Ensure the footage-card adjusts size on mobile */
+@media (max-width: 768px) {
+    .footage-card {
+        width: 90%;  /* Make cards take 90% of the screen width */
+        height: auto; /* Let the height adjust based on content */
+    }
 }
 
 .footage-card:hover {
