@@ -143,11 +143,21 @@ footer {
 
 .media-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    width: 100%;
+    grid-template-columns: repeat(4, 1fr); /* Four columns on larger screens */
+    gap: 20px; /* Space between each item */
+    padding: 20px;
+    justify-items: center; /* Center-align items */
+    width: 100%; /* Full width */
     max-width: 1200px;
-    margin-top: 20px;
+    margin: 0 auto; /* Center the grid on the page */
+}
+
+/* Single column layout for mobile screens */
+@media (max-width: 768px) {
+    .media-grid {
+        grid-template-columns: 1fr; /* One item per row */
+        gap: 15px;
+    }
 }
 
 .media-frame {
@@ -164,10 +174,10 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Center the media */
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
+    object-fit: contain; /* Fill with black borders as needed */
     border-radius: 10px;
 }
 
