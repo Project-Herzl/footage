@@ -118,6 +118,9 @@
                 "https://i.postimg.cc/Qty2PJKB/7.jpg",
                 "https://i.postimg.cc/kGR0dRWT/8.jpg",
                 "https://i.postimg.cc/6TsD660t/9.jpg",
+                "https://ia600604.us.archive.org/13/items/vid-20241113-132622-444/IMG_20241113_132608_904.jpg",
+                "https://ia600604.us.archive.org/13/items/vid-20241113-132622-444/IMG_20241113_132609_708.jpg",
+                "https://ia600604.us.archive.org/13/items/vid-20241113-132622-444/IMG_20241113_132609_772.jpg",
                 "https://i.postimg.cc/ZY9nqfcM/11.jpg",
                 "https://i.postimg.cc/9XvMwGgF/12.jpg",
                 "https://i.postimg.cc/4xGxBXTD/13.jpg",
@@ -187,6 +190,7 @@
                 "https://ia600603.us.archive.org/26/items/video6019511688863159516/video6003531550073818979.ia.mp4",
                 "https://ia600603.us.archive.org/26/items/video6019511688863159516/video6014796377412868222.ia.mp4",
                 "https://ia600603.us.archive.org/26/items/video6019511688863159516/video6019511688863159516.ia.mp4",
+                "https://ia600604.us.archive.org/13/items/vid-20241113-132622-444/VID_20241113_132622_444.mp4",
                 "https://ia800603.us.archive.org/26/items/video6019511688863159516/GC8t_x0W4AA9V4u.png",
                 "https://ia800603.us.archive.org/26/items/video6019511688863159516/0f9df56d-9dd6-4d4f-bc4c-03ecd8c50a54.jpg",
                 "https://ia600603.us.archive.org/26/items/video6019511688863159516/1d5bebd4-f7a8-44f1-8302-e1e80f47eef3.jpg",
@@ -242,6 +246,7 @@
                 "https://ia600102.us.archive.org/3/items/video6042055976494829478/5814179627999020404.jpg",
                 "https://ia600102.us.archive.org/3/items/video6042055976494829478/6033092118211314544.jpg",
                 "https://ia600102.us.archive.org/3/items/video6042055976494829478/6033119962484293129.jpg",
+                "https://ia600604.us.archive.org/13/items/vid-20241113-132622-444/VID_20241113_132654_498.mp4",
                 "https://ia600102.us.archive.org/3/items/video6042055976494829478/DNB66C2zjHXnIb8W.mp4",
                 "https://ia600405.us.archive.org/4/items/img-7218_202411/IMG_7218.mp4",
                 "https://ia600102.us.archive.org/3/items/video6042055976494829478/ssstwitter.com_1718734302422.mp4",
@@ -281,6 +286,17 @@
                 "https://ia800803.us.archive.org/27/items/hamas-is-anti-palestine-hamas-beating-up-civilians-2/Hamas%20is%20anti-Palestine%20-%20hamas%20beating%20up%20civilians%202.mp4",
                 "https://ia600803.us.archive.org/27/items/hamas-is-anti-palestine-hamas-beating-up-civilians-2/Hamas%20is%20anti-Palestine%20-%20hamas%20beating%20up%20civilians%203.mp4",
                 "https://ia600403.us.archive.org/3/items/ssstwitter.com_1731363839219/ssstwitter.com_1731363839219.mp4"
+            ]
+        },
+        {
+            "title": "long videos",
+            "image": "https://static.timesofisrael.com/www/uploads/2023/11/Screenshot-2023-11-29-102518-e1701246942107.jpg",
+            "description": "first video: what the palestinians actually thinks about Hamas and Israel\nsecond video: the full Nova Festival Video\nthird video: 47 minutes of Hamas beating and torturing Palestinians\nfourth video: Israeli documentary on October 7 Hamas-led attack",
+            "attachments": [
+                "https://ia601905.us.archive.org/35/items/videoplayback_20241114_1926/videoplayback.mp4",
+                "https://ia600405.us.archive.org/10/items/full-nova-movie/Full%20Nova%20Movie.mp4",
+                "https://ia600402.us.archive.org/1/items/ebc08faa-4caf-47a1-a357-ae7acb77165b/ebc08faa-4caf-47a1-a357-ae7acb77165b.mp4",
+                "https://ia800402.us.archive.org/15/items/videoplayback_20241114_2016/videoplayback.mp4"
             ]
         }
     ]
