@@ -190,6 +190,12 @@ footer {
     margin: 20px 0;
     max-width: 800px;
     text-align: left;
+
+    /* Adjust wrapping behavior */
+    overflow-wrap: normal; /* Only break when necessary */
+    word-wrap: normal; /* Ensure long words break naturally */
+    overflow: hidden; /* Hide any overflowing content */
+    white-space: normal; /* Keep normal line-breaking behavior */
 }
 
 .description-container p {
