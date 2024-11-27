@@ -263,3 +263,52 @@ footer {
 #go-back-button:hover {
     background-color: #0056b3; /* Darker color on hover */
 }
+
+/* Adjust Question Mark Button */
+.questionmark-button {
+    position: absolute;
+    top: 30px; /* Adjusted to match the home button height */
+    right: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.questionmark-button i {
+    font-size: 1.5rem;
+}
+
+.questionmark-button:hover {
+    color: darkblue;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    right: 5px;
+    top: 70px; /* Adjusted to be closer to the questionmark button */
+    width: 200px;
+    background-color: white; /* White background for the sidebar */
+    color: black; /* Text color set to black for better readability */
+    padding: 15px; /* Increased padding for spacing */
+    border-radius: 8px;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added shadow for better contrast */
+    overflow-wrap: break-word; /* Prevents text overflow */
+}
+
+.sidebar.visible {
+    display: block;
+    transform: translateX(0); /* Slide in from the right */
+}
+
+/* Prevent text from going off screen and ensure wrapping */
+.sidebar p {
+    word-wrap: break-word; /* Ensures text wraps to the next line */
+    word-break: break-word; /* Forces long words to break to the next line */
+}

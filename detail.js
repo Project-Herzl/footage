@@ -114,3 +114,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Automatically open the warning image modal when the page loads
     openModal('warning.jpg');
 });
+
+// Handle the question mark button click to open a sidebar
+document.getElementById('questionmark-button').addEventListener('click', () => {
+    // Create the sidebar element if it doesn't exist
+    let sidebar = document.getElementById('sidebar');
+    if (!sidebar) {
+        sidebar = document.createElement('div');
+        sidebar.id = 'sidebar';
+        sidebar.classList.add('sidebar');
+        
+        const sidebarContent = document.createElement('p');
+        sidebarContent.textContent = 'if you facing errors in the loading of some of the videos, try clicking right click on the video (on phone its a long tap) and then try "open in new window". if you cant use this option, try "copy video/image link" and then paste it yourself in new tab.';
+        
+        sidebar.appendChild(sidebarContent);
+        document.body.appendChild(sidebar);
+    }
+
+    // Toggle sidebar visibility
+    sidebar.classList.toggle('visible');
+});
