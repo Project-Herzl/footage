@@ -10,7 +10,7 @@ fetch('data.json')
     })
     .catch(error => console.error('Error loading JSON:', error));
 
-// Function to display details including images
+// Function to display details including images.
 function displayDetails(item) {
     const { title, description, attachments } = item;
     document.getElementById('detail-title').textContent = "Footages: " + title;
